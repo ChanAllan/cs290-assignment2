@@ -1,0 +1,65 @@
+thead th, tfoot td{
+	background: white;
+	color: black; 
+}
+
+tr th:nth-child(1){
+	font-style: italic;
+	font-weight: normal;
+}
+
+tr:nth-child(odd){
+	background: lightgreen;
+}
+
+tr:nth-child(even){
+	background: lightblue;
+}
+
+tbody tr td:nth-child(2){
+	color: red;
+}
+
+tbody tr td:nth-child(4){
+	color: blue;
+}
+
+dt:hover + dd{
+	background: purple;
+}
+
+.outer-content{
+	background: pink;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 75%;
+}
+
+.inner-content{
+	background: blue;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+img{
+	float: left;
+	height: 125px;
+	width: 100px;
+}
+
+fieldset{
+	width: 90%;
+
+}
+
+input[type=radio]{
+	margin: 10px;
+}
